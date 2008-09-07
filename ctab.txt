@@ -1,0 +1,834 @@
+
+<n>
+skull          {-g,+h}
+dream          {-h,-v}
+dragon         {+v}
+bat       {-g,-h}
+vampire        {-g,+h}
+memory         {-v,-h}
+rose      {+g,-h}
+thorn          {-g,-h}
+storm          {+v}
+thunderbolt    {+v}
+spasm          {+v,-g}
+explosion {+v}
+mirage         {-v}
+mother         {+h}
+brother        {+h}
+sister         {+h}
+oppressor {-g,+h}
+victim         {+h}
+saint          {+g,+h}
+martyr         {+g,+h}
+rainbow        {-v,+g,-h}
+waterfall {-v,+g,-h}
+razor          {+v,-h}
+mountain  {+v,-h}
+healer         {+h,+g}
+warrior        {+h,+v}
+shaman         {+h,+g}
+werebeast {+h,+g}
+priest         {+h,-g}
+priestess         {+h,+g}
+teacher        {+h,-g}
+fool      {+h,-g}
+poison         {-g,-h}
+serpent        {-g}
+sky       {-v}
+sea       {-v}
+lover          {+h,+g}
+King      {+h,+g}
+Queen          {+h,+g}
+rock      {-h}
+sand      {-h}
+grass          {-h}
+hill      {-h}
+city      {-h}
+desert         {-g,-h}
+garden         {+g,-h}
+jewel          {+g,-h}
+meadow		   {-v,-h,+g}
+wasteland	   {-g,-h}
+temple         {-h}
+dust           {-g,-v,-h}
+figure         {+h}
+
+
+<np>
+fingers
+feet
+eyes
+wings
+thoughts
+memories
+worlds
+wounds         {-g,+v}
+reptiles       {-g}
+faeries        {+g,+h}
+enchantments   {+g}
+tears          {-g,-h}
+claws          {+v}
+fireflies {-v,+g}
+memories  {-v,-h}
+elves          {-v,+h}
+children  {+h}
+flowers        {+g,-v}
+demons         {+h,+v}
+wolves         {+h,+v}
+angels         {+h,+g}
+spirits         {+h,+g}
+stormclouds    {+v,-h}
+cats      {+g}
+ravens         {+g}
+termites  {-g}
+saints         {+g,+h}
+martyrs        {+g,+h}
+tornadoes {+v,-h}
+razors         {+v,-h}
+mountains {+v,-h}
+healers        {+h,+g}
+warriors  {+h,+g}
+shamans        {+h,+g}
+werebeasts     {+h,+g}
+priests        {+h,-g}
+teachers  {+h,-g}
+fools          {+h,-g}
+hordes         {-g,+h,+v}
+snowflakes     {-v}
+raindrops {-v}
+houses         {-v}
+flames         {+v}
+seeds          {+g}
+knives         {-g,+v}
+riches         {-g,-h}
+persecutors    {-g,+h}
+bombs        {-g,+v,-h}
+ravings        {-g,+v}
+trees          {+g}
+petals         {+g,-h}
+people         {+h}
+
+
+
+
+
+<ng>
+abandonment    {-v,-g}
+desolation     {-v,-g}
+alienation     {-v,-g}
+anger          {+v,-g}
+bitterness     {+v,-g}
+contentment    {-v,+g}
+understanding  {-v,+g}
+peacefulness   {-v,+g}
+frustration    {+v,-g}
+righteousness  {+v,+g}
+revulsion {+v,-g}
+vengeance {+v,+g}
+memory         {-v}
+pain      {+v,-g}
+heartache {-g}
+loneliness     {-g}
+agony          {+v,-g}
+stillness {-v}
+woe       {-g}
+grief          {-g}
+joy       {+g}
+
+
+<vi12>
+crawl          {-g,+h}
+stand          {+h}
+flutter        {-v}
+tumble         {-h}
+swarm
+seethe         {-h,+v}
+surrender {+h,-g}
+slumber        {+h,-v}
+rage      {+h,+v,-g}
+laugh          {+g,+h}
+cry       {+h,-g}
+weep      {+h,-g,+v}
+seethe         {-h}
+arise          {-h}
+drift          {-h,-v}
+roam
+speak          {+h}
+endure         {+g}
+plot      {+h,-g}
+disintegrate   {-h,-g}
+struggle  {+v,-g}
+die       {-g}
+mourn          {-g,-v}
+wander
+howl           {+v,-g}
+run
+twirl
+
+<vi3>
+crawls         {-g,+h}
+stands         {+h}
+flutters  {-v}
+tumbles        {-h}
+swarms
+seethes        {-h,+v}
+surrenders     {+h,-g}
+slumbers  {+h,-v}
+rages          {+h,+v,-g}
+laughs         {+g,+h}
+cries          {+h,-g}
+weeps          {+h,-g,+v}
+seethes        {-h}
+arises         {-h}
+drifts         {-h,-v}
+roams
+speaks         {+h}
+endures        {+g}
+plots         {+h,-g}
+disintegrates  {-h,-g}
+struggles {+v,-g}
+dies      {-g}
+mourns         {-g,-v}
+menaces        {-g}
+denies         {-g}
+protects       {+g}
+
+<vip>
+fell      {-g}
+became lost    {-g}
+screamed  {-g,+v}
+shattered {-g,+v}
+twisted        {-g}
+suffered  {-g, +h}
+darkened  {-g}
+crawled        {-g,+h}
+stood          {+h}
+fluttered {-v}
+tumbled        {-h}
+seethed        {-h,+v}
+surrendered    {+h,-g}
+slumbered {+h,-v}
+raged          {+h,+v,-g}
+laughed        {+g,+h}
+cried          {+h,-g}
+wept      {+h,-g,+v}
+arose          {-h}
+drifted        {-h,-v}
+decayed        {-v,-g}
+reposed        {-v,+g,+h}
+spoke          {+h}
+endured        {+g}
+plotted        {+h,-g}
+disintegrated  {-h,-g}
+struggled {+v,-g}
+died      {-g}
+mourned        {-g,-v}
+dissolved      {-g}
+darkened       {-g}
+smiled         {+g,+h}
+bled           {-g,+h,+v}
+
+
+<vt12>
+attack         {+v}
+hate      {-g,+v}
+love      {+g,+h}
+revere         {+g,+h}
+know      {+g,+h}
+ride
+consume        {-g,-v}
+extinguish     {-g,-v}
+destroy        {-g,+v}
+infest         {-g,-h}
+heal      {+g}
+reclaim        {+g}
+oppose
+resist         {+g}
+defy      {+g,+v}
+forget         {-g,-v,+h}
+accept         {+g,-v,+h}
+discover  {+g,+h}
+dance with     {+g}
+trust          {+g,+h}
+fear      {-g,+h}
+call to        {+h}
+outlast        {+g}
+feast on  {+h}
+use       {+h}
+exploit        {-g,+h}
+resemble
+shriek at {-g,+v}
+wait for  {-v}
+
+
+<vt3>
+attacks        {+v}
+hates          {-g,+v}
+loves          {+g,+h}
+reveres        {+g,+h}
+knows          {+g,+h}
+rides
+consumes  {-g,-v}
+extinguishes   {-g,-v}
+destroys  {-g,+v}
+infests        {-g,-h}
+heals          {+g}
+reclaim   s    {+g}
+opposes
+resists   {+g}
+defies         {+g,+v}
+forgets        {-g,-v,+h}
+accepts        {+g,-v,+h}
+discovers {+g,+h}
+dances with    {+g}
+trusts         {+g,+h}
+fears          {-g,+h}
+calls to  {+h}
+outlasts  {+g}
+feasts on {+h}
+uses      {+h}
+exploits  {-g,+h}
+resembles
+shrieks at     {-g,+v}
+waits for {-v}
+
+<vtp>
+mocked         {-g,+h}
+fed       {+g}
+hid
+attacked  {+v}
+hated          {-g,+v}
+loved          {+g,+h}
+revered        {+g,+h}
+knew      {+g,+h}
+rode
+consumed  {-g,-v}
+extinguished   {-g,-v}
+destroyed {-g,+v}
+infested  {-g,-h}
+healed         {+g}
+reclaimed {+g}
+opposed
+resisted  {+g}
+defied         {+g,+v}
+forgot         {-g,-v,+h}
+accepted  {+g,-v,+h}
+discovered     {+g,+h}
+danced with    {+g}
+trusted        {+g,+h}
+feared         {-g,+h}
+called to {+h}
+outlasted {+g}
+feasted on     {+h}
+used      {+h}
+exploited {-g,+h}
+resembled
+shrieked at    {-g,+v}
+waited for     {-v}
+
+
+<vg>
+scratching at
+longing for         {-v,-g,+h}
+yearning after      {-g,+h}
+searching for       {-g,+h}
+dreaming of         {+g,+h}
+stretching beneath  {-h}
+towering above      {-h}
+coiling within      {-h}
+dying beside        {-g,+h}
+lying upon          {-v,+h}
+stamping on         {-g,+v}
+bursting forth from {-g,+v,-h}
+flowing from        {+g,-h}
+clutching at
+looming above
+stretching beyond
+reaching above      {+g}
+falling beneath     {-g}
+cowering before     {-g,+h}
+
+
+
+<vpp>
+sunken         {-v,-g,-h}
+forsaken  {-v,-g,-h}
+forgotten {-v,-g}
+redeemed  {-v,+g,+h}
+remembered     {-v,+g,+h}
+undefeated     {+g,+h}
+broken         {-g,-h}
+unforgiven     {-g,+h}
+forgiven  {+g,+h}
+unbroken  {+g,-h}
+unmade         {-g,-h}
+unfulfilled    {-g,+h}
+justified {+g,-h}
+made whole     {+g,-h}
+healed         {+g,+h}
+torn apart     {+v,-g}
+undivided {+g}
+shattered {+v,-g}
+
+
+
+
+<a>
+black          {-g,-h}
+cold      {-g,-h}
+wet       {-g,-h}
+forbidding     {-g,-h}
+grim      {-g,-h}
+deadly         {-g,-h}
+flaming        {-g,+v,-h}
+hostile        {-g,+v}
+uncaring  {-g}
+lush      {+g,-h}
+fertile        {+g,-h}
+exquisite {+g,-h}
+familiar  {+g,-h}
+primitive {+g,+h}
+unknown        {-h}
+mysterious     {+g}
+soft      {+g,-h}
+eternal        {+g}
+indestructible {+g}
+lonely         {-v,+h}
+sensual        {+g,+h}
+lost      {-v,+h}
+helpless  {-v,+h}
+lovely         {+g,+h}
+all-knowing    {+g,+h}
+gothtastic     {+g,+h}
+gothyck        {+g,+h}
+magyckal  {+g,+h}
+totemic        {+g,+h}
+female         {+g,+h}
+authoritarian  {-g,+h}
+cruel          {-g,+h}
+stupid         {-g,+h}
+vicious        {+v,-g}
+chaotic        {+v,-g}
+terrifying     {+v,-g}
+hellish        {+v,-g}
+desolate  {-v,-g}
+abandoned {-v,-g}
+foul      {-g}
+wicked         {-g,+h}
+wise      {+g,+h}
+avenging  {+g,+v,+h}
+comforting     {+g,+h}
+orgasmic       {+v}
+systolic        {+v}
+sinuous
+formless       {-h}
+long-lost
+misunderstood
+
+
+
+
+<as>
+` -like
+` -loving
+` -wounded
+` -imbued
+` -ish
+` -envenomed
+` -enchanted
+
+<av>
+wildly         {+v}
+violently {+v}
+soundlessly    {-v}
+silently  {-v}
+unseeingly     {-v}
+appallingly    {-g}
+darkly
+lustfully {+g}
+lovingly  {+g}
+smilingly {+g}
+ecstatically   {+g}
+restlessly     {-g}
+excruciatingly {+v,-g}
+hideously {+v,-g}
+agonizingly    {+v,-g}
+piteously {-v,-g}
+pointlessly    {-v,-g}
+vainly         {-v,-g}
+hopefully      {+g,+h}
+hopelessly     {-g,+h}
+fitfully       {-g,-h}
+thunderously   {+v,-h}
+terrifyingly   {+v,-g}
+
+
+
+[cliche]
+as the skies clear
+as I lie dying
+in the frozen wastes
+beyond good and evil
+like a bleeding vampire
+in the end
+thinking about it now
+looking back
+at the darkest hour
+just as I had thought
+exactly as I had known
+in the darkest night
+beyond the borders of sanity
+in a padded cell
+another victim of tyranny
+as my tears flow
+among the mindless crowds
+the truth is
+in endless darkness
+beyond time and space
+beyond thought and memory
+"Save us from ourselves!"
+the pain is too great to bear
+
+
+
+
+[postf]
+` . &
+` . &
+` . &
+` . &
+` ... &
+` ! &
+
+[postq]
+` ? &
+` ? &
+` ? &
+` ..? &
+
+[postx]
+` ! &
+
+
+
+
+
+
+
+
+
+
+
+
+
+[thing]
+_n
+_n
+_a _n
+_n _vg a _a _n
+_n of _ng
+
+[a_thing]
+my %thing
+@ %thing
+the %thing
+the %thing %in_the %thing
+their %thing
+
+[things]
+_np
+_a _np
+
+[some_things]
+those %things
+%things
+the %things
+their %things
+my %things
+
+[some_thing_or_things]
+%a_thing
+%some_things
+
+[exist]
+_vi12
+_vi12
+_vi12 _av
+_vi12 _vg %a_thing
+
+[exists]
+_vi3
+
+[existed]
+_vip
+_vip _av
+
+[frob]
+_vt12
+
+[frobs]
+_vt3
+
+[frobbed]
+_vtp
+
+[frobben]
+_vpp
+
+[predicate]
+%exist
+%exist %thusly
+%exist %in_the _ng
+%frob %a_thing
+%frob %a_thing %thusly
+
+[predicates]
+%exists
+%exists %thusly
+%frobs %a_thing
+%frobs %a_thing %thusly
+
+
+[thus]
+_a
+_a
+_n _as
+as _a as %a_thing
+as _a as %some_things
+%frobben
+
+[thusly]
+` , _av
+` , _av
+` , _av
+` , as _av as %a_thing
+
+[it_is]
+I am
+you are
+they are
+she is
+it is
+he is
+
+[it_was]
+I was
+you were
+they were
+she was
+he was
+it was
+
+[in_the]
+in the
+through the
+inside the
+behind the
+within the
+beyond the
+beside the
+above the
+far beyond the
+far above the
+lurking under the
+hiding behind the
+_vg the
+
+
+[initialbut]
+{!g,!v} and yet
+{!g,!v} through it all
+{!g,!v} yet still
+{!g,!v} yet stay;
+{!g,!v} but somehow
+{!g,!v} but before my eyes
+{!g,!v} but at the speed of a memory,
+{!g,!v} but before you can close your eyes,
+{!g,!v} suddenly, a change --
+{!g,!v} suddenly, it all changes;
+{!g,!v} but softly;
+{!g,!v} but wait --
+{!g,!v} yet look;
+{!g,!v} look again, though --
+{!g,!v} in a flash it changes:
+{!g,!v} not what you thought;
+
+
+[but]
+{!g,!v} , but
+{!g,!v} -- but
+{!g,!v} , yet
+{!g,!v} , and yet
+{!g,!v} , yet still
+{!g,!v} , though still
+
+[now]
+now
+at last
+from now on
+in the world to come
+in the modern world
+in this world of ours
+presently
+
+[then]
+long ago
+in ancient times
+in my childhood
+before Man
+in the days of yore
+long, long ago
+in elder times
+
+
+[already]
+already
+no longer
+still
+nevermore
+so soon
+so recently
+once
+
+[why]
+why
+for what reason
+wherefore
+why, why
+why indeed
+and why
+
+
+[line]
+%a_thing %frobs me %postf
+%some_things %predicate %already %postf
+%a_thing %exists , %a_thing %exists %postf
+%some_things %exist %postf
+%a_thing %predicates %postf
+%some_things %predicate %postf
+%a_thing is %thus %postf
+I %predicate %postf
+you %predicate %postf
+it %predicates %postf
+%a_thing is _vg %a_thing %postf
+%then %it_was %thus %postf
+%now %it_is %thus %postf
+%initialbut %a_thing %predicates %postf
+has %a_thing %frobbed %some_things %postq
+have %some_things %frobbed %some_things %postq
+did i %already %predicate %postq
+%why are %some_things %thus %postq
+%why do i %predicate %postq
+%exist ` , %exist %postx
+%a_thing %exists %but %some_things %exist %postf
+%then %it_was %thus %but %now %it_is %thus %postf
+
+
+
+
+[firstline]
+%cliche %it_is %thus %postf
+%cliche %a_thing %predicates %postf
+%cliche I %exist %but %exist %postf
+%line
+%line
+%line
+%line
+%line
+%line
+%then %some_things %frobbed %postf
+
+[lastline]
+%cliche %line
+%line
+%line
+%line
+%line
+%line
+%line
+%line
+%line
+%line
+%line
+%cliche , %cliche , %cliche %postf
+after the storm, %things %postf
+when all's done, %things %predicate %postf
+in the end, %a_thing %exists %postf
+%exist , %exist , %exist %postf
+will %a_thing never %exist %postq
+and never may we %exist %postf
+in the garden, after the rain %postf
+finally, the %thing %postf
+at last, the %thing %postf
+%exist at last %postf
+%initialbut %line
+
+[title]
+_vg %some_things &
+%a_thing &
+%frobben %things &
+the %frobben %thing &
+%already %frobben &
+
+[break]
+----=-==-====-==-=---- &
+
+[signature]
+Gothchyk
+Goth Grrl
+Daveykins
+WolfSpirit
+TexasVampire
+PaganPattie
+heathen_heather
+pagan1234@hotmail.com
+loves_goth
+Severina
+Perdita
+Chlamydia
+Candida
+Excessus
+Darklord1
+WestCoastWerewolf
+HatesMundanes
+Babylon5Lover
+Wicca_Man
+Sister Darkness
+Black Heart Of New Jersey
+luvgothgirls
+The Vampire Darren
+dark_dreamer@ohioonline.net
+wanderer@flour.nephilim.net
+wolfvamp123@basingstoke_insurance.co.uk
+lonely1@wolfden.org
+Eskimo Neil
+Jessica Shadowcat
+Jade Foxwolfowlpanther
+Brad WyrdWulff
+Cheryl "The Dark Temptress" Butler
+EndlessNameless
+Rebecca Vixenflame
+vampcat@furry.org
+bloodpanther@furry.com
+Brighteyes Bushytail
+Fangworthy The Wolfboy
+
+
+
+[poem]
+{+g} %title %break {+g,+h} %firstline {-g,+v,-h} %line {-g,-v,-h} %line {-g} %line {+g,+h} %line %lastline & %signature
+
+[happypoem]
+{+g} %title %break {+g,+h} %firstline {+g,+v,-h} %line {+g,-v,-h} %line {+g} %line {+g,+h} %line & %signature
+
+[evilpoem]
+{-g} %title %break {-g,+h} %firstline {-g,+v,-h} %line {-g,+v,-h} %line {-g} %line {-g,+h} %line & %signature
+
+[epicpoem]
+%title %break & %firstline %line & %line %line & %line %line & %line %line & %line %line & %line %lastline & %signature
+
+[sonnet]
+%title ( A sonnet by %signature ) & %break {+v,-g} %line %line %line %line %line %line %line %line %line %line %line %line {-v,+h} %line %line %line %lastline
+
+[description]
+%it_was _a _n %thing
