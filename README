@@ -1,0 +1,80 @@
+ h2. Original Project
+
+ This goth poetry generator is part of a larger project to do with steganography. At one point, it was necessary to generate a lot of 'noise' data within which to hide encrypted 'signal' data. The grammar-based generator used here was created to produce a large amount of junk data which cannot easily be distinguished from real text without human intervention.
+
+ The generator was implemented in Ruby because Ruby is fun and lends itself well to this sort of thing, and because at that time it wasn't yet obvious that no effort would be made to make Ruby generally useful (which is a rant for another time).
+
+ The text generator does it's job of creating text that is hard for a computer to tell apart from real data well. It is possible, given a large body of real data, to generate a grammar from sample data and then generate fake data from the grammar. It is also possible to use grammar-based generation to create binary data for steganography, although I haven't explored that angle.
+
+ h2. Grammar
+
+ The generator takes a text grammar file as its input. You may be able to work out the details by looking at the example file, but here is a rough guide:
+
+ h3. Atoms
+
+ Words used in the grammar are atoms. Here are some atom definitions:
+ <pre>
+   <code>
+     <animals>
+     dog {+c}
+     cat {-c}
+     stick insect {-c,+i}
+
+     <plants>
+     tree {+g,+t}
+     moss
+   </code>
+ </pre>
+
+ Atom categories are begun with a name in angle brackets. Within the category, the atoms may be followed by lists of semantic flags surrounded by braces.
+
+ These consist of a comma-separated list of flags, where a flag is a character (which has no intrinsic meaning) prefixed by a + or -.
+
+ h3. Rules
+
+ Rules are the production rules of a simple grammar. Rules are recursively expanded. Rules may have the following kinds of elements:
+
+ * Bare words. These are appended to the output literally.
+ * Rule names, prefixed with %. These are expanded recursively.
+ * Atom categories, prefixed with _. These are replaced with an atom from that category.
+ * Semantic predicates, surrounded by {}. These influence the selection of atoms from categories.
+
+ Elements in rules are always separated by spaces.
+
+ Here is an example:
+
+ <pre>
+   <code>
+     [statement_about_creatures]
+     I like _animals.
+     I like _plants.
+     I %hate {-c} animals that aren't dog-like!
+
+     [hate]
+     loathe
+     detest
+   </code>
+ </pre>
+
+ The division into 'atoms' and 'rules' is not necessary for generating goth poetry, but is dictated by the steganography system within which the generator works. However, if you create sensible (and large) atom categories, you have a good chance of getting related atoms to be generated together, which makes the result a bit less chaotic.
+
+ h3. Semantics
+
+ When the time comes to pick an atom to insert into a rule, the semantic flags attached to the atoms and rules are used. As the generator expands a rule, it maintains a 'semantic status' consisting of a state for each flag it has encountered. For instance, coming to the semantic predicate {+g} makes the generator 'like' atoms that have a +g flag. The semantic predicate {-g} makes the generator like -g atoms and avoid +g ones. There are two more types of predicate possible: {!g} makes the generator forget the 'g' flag and accept -g and +g atoms equally, and {~~g} would make the generator reverse it's attitude to the 'g' flag. In fact, {+g,~~g} would have the same effect as {-g}.
+
+ The flags have no particular meaning; they are just used to make some atoms more likely to appear in some rules. This is useful for generating Gothic poetry as it allows stretches of kinda-sorta related words to occur together -- if you're lucky.
+
+ h3. Special characters
+
+ There are some special characters that occur in rules, just to help make the output readable. These are:
+ * @ -- this character is expanded to 'a' or 'an' depending on the next word that is generated.
+ * ` -- this character indicates that the preceding space, while necessary in defining the rule, should not be actually emitted.
+ * & -- this forces a linebreak to be emitted.
+
+ h3. Other Grammars
+
+ There are many things other than Goth poetry that lends themselves to this approach. Gangsta rap lyrics, Scientology, and mouthwatering descriptions of Italian food would all suit this approach well. Somewhere, there exists a kinda-sorta-finished Cthulhu grammar that generates descriptions of ancient monsters, but I can't track it down.
+
+
+
+ found on "JBrowse":http://www.jbrowse.com/text/generator.shtml

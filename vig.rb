@@ -47,7 +47,7 @@ class Atom
         when /^\{(.*)\}/
           @semantics.apply($1)
         else
-          @value ? @value += " " + t : @value = t # !> instance variable @value not initialized
+          @value ? @value += " " + t : @value = t 
         end
     end
   end
@@ -104,8 +104,7 @@ class Semantics
   end
 
   def getFlag(f)
-    return @flags[f] if @flags[f]
-    return 0
+    @flags[f] ? @flags[f] : 0
   end
 
   def apply(s)
@@ -136,7 +135,7 @@ class Semantics
     score=0;
     @flags.each_pair do |f, v|
       x = s.getFlag(f)
-      (x==v)?score+=1:score=-1000;
+      (x==v) ? score+=1 : score=-1000;
     end
     score
   end
@@ -145,7 +144,7 @@ class Semantics
     score=0;
     @flags.each_pair do |f, v|
       x = s.getFlag(f)
-      (x==v)?score+=1:score+=0;
+      (x==v) ? score+=1 : score+=0;
     end
     score
   end
@@ -182,12 +181,12 @@ class Cc
         section = $1
         what = Rule
         
-        @rule[section] = Array.new if @rule[section] == nil
+        @rule[section] = Array.new unless @rule[section] 
       when /<(.*)>/
         what = Atom
         section = $1
         
-        @atom[section] = Array.new if @atom[section] == nil
+        @atom[section] = Array.new unless @atom[section] 
       else
         x = what.new(section, l)
         what == Atom ?  @atom[section].append(x) : @rule[section].append(x)
@@ -270,10 +269,10 @@ class Cc
 
   #given the string result of a rule or literal, apply it to outputstring
   def postProcess(s)
-    out=""
-    nospace=true
-    sentencebreak=true
-    waitingfora=false
+    out = ""
+    nospace = true
+    sentencebreak = true
+    waitingfora = false
 
     a = s.split
     a.each do |t|
